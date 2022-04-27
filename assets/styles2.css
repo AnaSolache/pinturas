@@ -1,0 +1,59 @@
+
+/*-------- Navbar -------*/
+.img-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*-------- Carrusel -------*/
+
+.img-carrusel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.img-cards{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.videoframe{
+    width: 100%;
+    height: 250px;
+}
+
+.pantalla{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cuadro{
+    background-color: rgba(0,0,0,0.492);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    }
+
+.negro{
+    background-color: black;
+}
+
+.artGift{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    object-position: center;
+}
